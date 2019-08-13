@@ -161,4 +161,4 @@ def fit(net, X_train, y_train, X_test=None, y_test=None, n_epochs=30):
             print('Loss {loss:.3f}\t'
                   'Accuracy {accuracy:.3f}'.format(loss=test_loss, accuracy=accuracy))
 
-        return test_accuracy_history, test_loss_history
+    return test_accuracy_history, test_loss_history
