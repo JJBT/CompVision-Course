@@ -1,4 +1,7 @@
 .ipynb*
 .idea
+__pycache__
+*.tar.gz
+cifar-10-batches-py
 
 
